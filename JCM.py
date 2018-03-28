@@ -1,8 +1,8 @@
 ####
 # Each team's file must define four tokens:
 #     team_name: JCM
-#     strategy_name: a string
-#     strategy_description: a string
+#     strategy_name: Deception
+#     strategy_description: By the credibility of the partner, a choice will be made.
 #     move: A function that returns 'c' or 'b'
 ####
 
