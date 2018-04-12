@@ -51,7 +51,7 @@ for module in modules:
         if not hasattr(module, required_variable):
             setattr(module, required_variable, 'missing assignment')
 
-def main_play(modules):
+def main_play(modules): 
     '''main_play plays a tournament and outputs results to screen and file.
     This function is called once when this file is executed.
     modules: a list of modules such as [team1, team2]    
@@ -194,10 +194,10 @@ def make_section0(modules, scores):
     ----------------------------------------------------------------------------
     Section 0 - Line up
     ----------------------------------------------------------------------------
-    Player 0 (P0): Team name 0, Strategy name 0,
-         Strategy 0 description
-    Player 1 (P1): Team name 1, Strategy name 1, 
-         Strategy 1 description
+    Player 0 (P0): team_name0, strategy_name0,
+         strategy_description0
+    Player 1 (P1): team_name1, strategy_name1, 
+         strategy_description1
     ''' 
     section0 = '-'*80+'\n'
     section0 += 'Section 0 - Line up\n'
